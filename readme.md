@@ -10,7 +10,7 @@
 + [x] Docker&Docker-compose
 + [ ] Elasticsearch
 + [ ] FAQ
-+ [ ] Git
++ [x] Git
 + [ ] Hyperf
 + [ ] Kafka
 + [ ] Linux
