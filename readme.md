@@ -8,10 +8,10 @@
 
 + [x] Composer
 + [x] Docker&Docker-compose
-+ [ ] Elasticsearch
++ [x] Elasticsearch[尚未全部完成]
 + [ ] FAQ
 + [x] Git
-+ [ ] Hyperf
++ [x] Hyperf[尚未全部完成]
 + [ ] Kafka
 + [ ] Linux
 + [ ] Mysql
