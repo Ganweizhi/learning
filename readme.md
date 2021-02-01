@@ -2,11 +2,11 @@
 
 ## 图示如下
 
-![image-20210129180631221](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210129180631221.png)
+![image-20210129180631221](FAQ\image-20210129180631221.png)
 
 ## 完成情况
 
-+ [ ] Composer（未开始写）
++ [x] Composer
 + [x] Docker&Docker-compose
 + [ ] Elasticsearch
 + [ ] FAQ
