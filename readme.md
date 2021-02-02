@@ -17,10 +17,11 @@
 + [ ] Mysql
 + [ ] Nginx
 + [x] PHP基础
-+ [ ] Rabbitmq
++ [x] Rabbitmq[尚未全部完成]
 + [ ] Redis
 + [ ] kubernate
 + [x] 设计模式
++ [x] 业务流程[尚未全部完成]
 
 ## 资料链接
 
