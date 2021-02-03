@@ -6,13 +6,13 @@
 
 - git init命令可初始化仓库
 
-![](pitctures\1.png)
+![](.\pitctures\1.png)
 
 #### 2.添加到暂存区
 
 - 先创建一个文件readme.txt，并添加内容11111111
 
-![image-20210201095813167](pitctures\1-1.png)
+![image-20210201095813167](.\pitctures\1-1.png)
 
 - 用命令 git add . 将当前目录所有所有文件添加到暂存区中
 
@@ -22,27 +22,27 @@
 
 - 用 git commit命令提交到本地仓库，-m参数是提交信息
 
-![](pitctures\3.png)
+![](.\pitctures\3.png)
 
 #### 4.查看仓库状态
 
 - 命令git status查看是否还有未提交的文件
 
-![image-20210201100853422](pitctures\image-20210201100853422.png)
+![image-20210201100853422](.\pitctures\image-20210201100853422.png)
 
 #### 5.查看文件修改了哪些内容
 
 - 在文件readme.txt下面增加一行2222222222内容
 
-![image-20210201101157727](pitctures\image-20210201101157727.png)
+![image-20210201101157727](.\pitctures\image-20210201101157727.png)
 
 - 用git status查看提交结果，可以看到修改了readme.txt且未提交
 
-![image-20210201101048189](pitctures\image-20210201101048189.png)
+![image-20210201101048189](.\pitctures\image-20210201101048189.png)
 
 - 用命令git diff .可以查看到底具体修改了哪里
 
-![image-20210201101256598](pitctures\image-20210201101256598.png)
+![image-20210201101256598](.\pitctures\image-20210201101256598.png)
 
 - 知道修改了哪里之后提交到仓库即可
 
@@ -50,19 +50,19 @@
 
 - 想要版本回退可以先查看历史记录，使用命令git log
 
-![image-20210201101530908](pitctures\image-20210201101530908.png)
+![image-20210201101530908](.\pitctures\image-20210201101530908.png)
 
 - 如果嫌上面显示的信息太多的话，我们可以使用命令 git log --oneline得到更简洁的历史记录
 
-![image-20210201102011491](pitctures\image-20210201102011491.png)
+![image-20210201102011491](.\pitctures\image-20210201102011491.png)
 
 - 回退上一个版本的命令是git reset --hard HEAD^， 那么如果要回退到上上个版本只需把HEAD^ 改成 HEAD^^ 以此类推。那如果要回退到前100个版本的话，可以使用下面的简便命令操作：git reset --hard HEAD~100 即可
 
-![image-20210201102325848](pitctures\image-20210201102325848.png)
+![image-20210201102325848](.\pitctures\image-20210201102325848.png)
 
 - 上面通过git log可以看到已经回退到上一个版本，然后可以通过版本号又返回到最新的版本；先通过命令git reflog查看全部提交记录的版本号，再用git reset --hard 版本号 来恢复到最新的版本
 
-![image-20210201102705982](pitctures\image-20210201102705982.png)
+![image-20210201102705982](.\pitctures\image-20210201102705982.png)
 
 #### 7.工作区与暂存区的区别
 
@@ -79,7 +79,7 @@
 
 - 在readme.txt下添加内容3333333333
 
-![image-20210201102938317](pitctures\image-20210201102938317.png)
+![image-20210201102938317](.\pitctures\image-20210201102938317.png)
 
 - 现在发现内容错误，想撤回修改，可以用下面两种方法
   1. 如果我知道要删掉那些内容的话，直接手动更改去掉那些需要的文件，然后add添加到暂存区，最后commit掉。
@@ -87,11 +87,11 @@
 
 - 但不用上面两种方法也可以，先用git status查看状态
 
-![image-20210201103223222](pitctures\image-20210201103223222.png)
+![image-20210201103223222](.\pitctures\image-20210201103223222.png)
 
 - 然后使用命令git checkout .可以丢弃工作区的修改，可以看到git status恢复正常，readme内容也撤销了修改
 
-![image-20210201103404661](pitctures\image-20210201103404661.png)
+![image-20210201103404661](.\pitctures\image-20210201103404661.png)
 
 - git checkout .撤回修改也有两种情况，如下：
   1. readme.txt自动修改后，还没有放到暂存区，使用 撤销修改就回到和版本库一模一样的状态。
@@ -110,15 +110,15 @@
 
 - 要将本地内容推送到远程仓库，先执行命令 git remote add 仓库地址 
 
-![image-20210201104450409](pitctures\image-20210201104450409.png)
+![image-20210201104450409](.\pitctures\image-20210201104450409.png)
 
 - 我们第一次推送master分支时，加上了 –u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
 
-![image-20210201104618846](pitctures\image-20210201104618846.png)
+![image-20210201104618846](.\pitctures\image-20210201104618846.png)
 
 - 码云上的仓库如下，已经成功推送：
 
-![image-20210201104646307](pitctures\image-20210201104646307.png)
+![image-20210201104646307](.\pitctures\image-20210201104646307.png)
 
 
 
@@ -144,27 +144,27 @@
   1. git branch dev
   2. git checkout dev
 
-![image-20210201105109039](pitctures\image-20210201105109039.png)
+![image-20210201105109039](.\pitctures\image-20210201105109039.png)
 
 - 然后在dev分支上的readme.txt添加内容“dev”并commit，然后切回主分支master，会发现在dev分支上添加的内容不见了
 
   1. dev分支上的readme添加内容dev，并且提交
 
-     ![image-20210201105628417](pitctures\image-20210201105628417.png)
+     ![image-20210201105628417](.\pitctures\image-20210201105628417.png)
 
   2. 切换会主分支master后发现添加的内容不见了
 
-     ![image-20210201105723024](pitctures\image-20210201105723024.png)
+     ![image-20210201105723024](.\pitctures\image-20210201105723024.png)
 
 - 然后现在将dev分支上的内容合并到master分支上，使用命令 
 
   git merge 分支名 即可合并，这次合并是“快进模式”，也就是直接将master指向dev的当前提交，所以合并速度非常快。
 
-  ![image-20210201110346118](pitctures\image-20210201110346118.png)
+  ![image-20210201110346118](.\pitctures\image-20210201110346118.png)
 
 - 合并完可以删除分支，使用命令 git branch -d 分支名 即可删除
 
-  ![image-20210201110608647](pitctures\image-20210201110608647.png) 
+  ![image-20210201110608647](.\pitctures\image-20210201110608647.png) 
 
 - 总结创建与合并分支命令如下：
 
@@ -181,31 +181,31 @@
 
 - 先新建一个新分支dev，在readme.txt添加一行内容9999999999，然后提交
 
-  ![image-20210201111556039](pitctures\image-20210201111556039.png)
+  ![image-20210201111556039](.\pitctures\image-20210201111556039.png)
 
 - 然后切换会主分支master，也在最后一行添加内容8888888888，然后提交
 
-  ![image-20210201111850002](pitctures\image-20210201111850002.png)
+  ![image-20210201111850002](.\pitctures\image-20210201111850002.png)
 
 - 然后与分支dev进行合并git merge dev，发生冲突了
 
-  ![image-20210201111932944](pitctures\image-20210201111932944.png)
+  ![image-20210201111932944](.\pitctures\image-20210201111932944.png)
 
 - 用git status查看状态情况看看是哪里发生冲突了
 
-![image-20210201112016245](pitctures\image-20210201112016245.png)
+![image-20210201112016245](.\pitctures\image-20210201112016245.png)
 
 - 发现是readme.txt文件冲突了，然后cat readme.txt查看该文件具体情况；Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容，其中<<<HEAD是指主分支修改的内容，>>>>>dev 是指dev上修改的内容
 
-![image-20210201112119495](pitctures\image-20210201112119495.png)
+![image-20210201112119495](.\pitctures\image-20210201112119495.png)
 
 - 此时我们手动修改将冲突那行内容改为master-dev然后提交，此时冲突解决了
 
-  ![image-20210201112345331](pitctures\image-20210201112345331.png)
+  ![image-20210201112345331](.\pitctures\image-20210201112345331.png)
 
 - 如果要查看分支合并情况可以使用git log查看
 
-![image-20210201112430036](pitctures\image-20210201112430036.png)
+![image-20210201112430036](.\pitctures\image-20210201112430036.png)
 
 #### 14.分支管理策略
 
@@ -218,26 +218,26 @@
 
 - 此时在dev分支上正在进行操作，操作到一半还没提交，此时要进行另一个bug分支的操作，那么可以用git stash将当前分支所修改的内容先隐藏起来
 
-  ![image-20210201113724532](pitctures\image-20210201113724532.png)
+  ![image-20210201113724532](.\pitctures\image-20210201113724532.png)
 
 - 此时可以创建bug分支来修改bug
 
-  ![image-20210201113837263](pitctures\image-20210201113837263.png)
+  ![image-20210201113837263](.\pitctures\image-20210201113837263.png)
 
 - bug修复完成提交后切回dev分支，并且将bug分支删除
 
-  ![image-20210201113940792](pitctures\image-20210201113940792.png)
+  ![image-20210201113940792](.\pitctures\image-20210201113940792.png)
 
 - 此时工作区是干净的，使用命令 git stash list 查看暂存区的内容
 
-  ![image-20210201114100657](pitctures\image-20210201114100657.png)
+  ![image-20210201114100657](.\pitctures\image-20210201114100657.png)
 
 - 接下来从暂存区恢复之前dev分支中正在修改且未提交的内容即可，可以使用如下2个方法：
 
   1. git stash apply恢复，恢复后，stash内容并不删除，你需要使用命令git stash drop来删除。
   2. 另一种方式是使用git stash pop,恢复的同时把stash内容也删除了。
 
-  ![image-20210201114253753](pitctures\image-20210201114253753.png)
+  ![image-20210201114253753](.\pitctures\image-20210201114253753.png)
 
   
 
