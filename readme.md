@@ -13,11 +13,11 @@
 + [x] Git
 + [x] Hyperf[尚未全部完成]
 + [ ] Kafka
-+ [ ] Linux
++ [x] Linux[尚未全部完成]
 + [ ] Mysql
 + [ ] Nginx
 + [x] PHP基础
-+ [x] Rabbitmq[尚未全部完成]
++ [x] Rabbitmq
 + [ ] Redis
 + [ ] kubernate
 + [x] 设计模式
