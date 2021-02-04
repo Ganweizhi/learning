@@ -11,7 +11,7 @@
 + [x] Elasticsearch[尚未全部完成]
 + [ ] FAQ
 + [x] Git
-+ [x] Hyperf[尚未全部完成]
++ [x] Hyperf[现在排版格式不太好]
 + [ ] Kafka
 + [x] Linux[尚未全部完成]
 + [ ] Mysql
