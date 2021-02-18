@@ -34,7 +34,7 @@
 
 - 在文件readme.txt下面增加一行2222222222内容
 
-![image-20210201101157727](./pitcturesi/mage-20210201101157727.png)
+![image-20210201101157727](./pitctures/image-20210201101157727.png)
 
 - 用git status查看提交结果，可以看到修改了readme.txt且未提交
 
