@@ -14,11 +14,11 @@
 
 - 原来的接口：
 
-![image-20210129165644660](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210129165644660.png)、
+![image-20210129165644660](./pictures/image-20210129165644660.png)、
 
 - 拆分后的接口
 
-![image-20210129165723243](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210129165723243.png)
+![image-20210129165723243](./pictures/image-20210129165723243.png)
 
 #### 依赖倒转原则
 
